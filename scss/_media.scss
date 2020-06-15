@@ -240,6 +240,14 @@
         padding: 0;
     }
 }
+@media (max-width:322px) {
+    .header-content__btn-link {
+         margin-bottom: 10px;
+     }
+    .header-content__btn-link + .header-content__btn-link {
+            margin-left: 0;
+    }
+}
 
 @media (min-width: 866px){
     .menu__list {
